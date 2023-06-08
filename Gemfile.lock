@@ -39,6 +39,8 @@ GEM
     rack (2.2.7)
     rack-contrib (2.3.0)
       rack (~> 2.0)
+    rack-cors (2.0.1)
+      rack (>= 2.0.0)
     rack-protection (2.2.4)
       rack
     rack-test (1.1.0)
@@ -88,6 +90,7 @@ DEPENDENCIES
   faker (~> 2.18)
   pry
   rack-contrib (~> 2.3)
+  rack-cors
   rack-test (~> 1.1)
   rake
   require_all
